@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+}
+.flexbox{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+}
+.flex-Item{
+    width: 100px;
+    height: 100px;
+    flex: 1 1 100px;
+    border: 2px solid #858;
+    object-fit: contain;
+}
